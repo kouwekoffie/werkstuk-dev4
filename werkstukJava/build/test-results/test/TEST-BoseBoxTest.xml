@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BoseBoxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-15T12:48:32" hostname="5CG6385CXB" time="0.038">
+  <properties/>
+  <testcase name="testInstructionManuald" classname="BoseBoxTest" time="0.038"/>
+  <system-out><![CDATA[Samsung Level box Slim bluetooth speaker  
+
+Press the powerButton to turn the box on or off
+
+Press the volumeUpButton to increase the volume. 
+Press the volumeUpButton to increase the volume.
+
+WATERPROOF
+UP TO 30 HOURS
+STEREO
+COMPACT
+MAXVOLUME: 100
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
