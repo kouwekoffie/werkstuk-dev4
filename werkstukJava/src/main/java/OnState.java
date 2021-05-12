@@ -1,7 +1,7 @@
 public class OnState implements State{
     @Override
-    public void doAction() {
-        System.out.println("Box is turned on.");
+    public String doAction() {
+        return ("Box is turned on.");
     }
 
 

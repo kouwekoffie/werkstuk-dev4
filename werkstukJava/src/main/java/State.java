@@ -1,3 +1,4 @@
 public interface State {
-    public void doAction();
+    public String doAction();
+
 }

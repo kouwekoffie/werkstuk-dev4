@@ -1,17 +1,16 @@
-/*
-
 import org.junit.Test;
 
 public class RemoteTest {
+
     @Test
     public void testState(){
-        Box box = new Box();
+        Box box = new BoseBox();
         box.doAction();
     }
 
     @Test
     public void testPower(){
-        Box box = new Box();
+        Box box = new BoseBox();
         Remote remote = new Remote(box);
         remote.powerButtonWasPressed();
         remote.powerButtonWasPressed();
@@ -19,7 +18,7 @@ public class RemoteTest {
 
     @Test
     public void testVolumeBoxOn(){
-        Box box = new Box();
+        Box box = new BoseBox();
         Remote remote = new Remote(box);
         remote.powerButtonWasPressed();
         for (int i = 0; i < 5; i++) {
@@ -34,7 +33,7 @@ public class RemoteTest {
 
     @Test
     public void testVolumeBoxOff(){
-        Box box = new Box();
+        Box box = new BoseBox();
         Remote remote = new Remote(box);
         remote.powerButtonWasPressed();
         remote.powerButtonWasPressed();
@@ -46,7 +45,7 @@ public class RemoteTest {
 
     @Test
     public void testVolumeExtendsMaxMin(){
-        Box box = new Box();
+        Box box = new BoseBox();
         Remote remote = new Remote(box);
         remote.powerButtonWasPressed();
         for (int i = 0; i < 13; i++) {
@@ -59,4 +58,3 @@ public class RemoteTest {
         }
     }
 }
-*/

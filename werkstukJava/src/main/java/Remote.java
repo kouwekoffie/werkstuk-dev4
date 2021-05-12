@@ -1,12 +1,12 @@
 public class Remote {
-    private Command powerCommand;
-    private Command volumeUp;
-    private Command volumeDown;
+    private final Command powerCommand;
+    private final Command volumeUpCommand;
+    private final Command volumeDownCommand;
 
     public Remote(Box box) {
         this.powerCommand = new PowerCommand(box);
-        this.volumeDown = new VolumeDownCommand(box);
-        this.volumeUp = new VolumeUpCommand(box);
+        this.volumeUpCommand = new VolumeUpCommand(box);
+        this.volumeDownCommand = new VolumeDownCommand(box);
     }
 
     public void powerButtonWasPressed(){
@@ -14,10 +14,10 @@ public class Remote {
     }
 
     public void volumeUpButtonWasPressed() {
-        volumeUp.execute();
+        volumeUpCommand.execute();
     }
 
     public void volumeDownButtonWasPressed() {
-        volumeDown.execute();
+        volumeDownCommand.execute();
     }
 }

@@ -1,7 +1,7 @@
 import junit.framework.TestCase;
 import org.junit.Test;
 
-public class BoseBoxTest extends TestCase {
+public class BoseBoxTest {
     @Test
     public void createBox(){
         Box boseBox = new BoseBox();
@@ -31,7 +31,7 @@ public class BoseBoxTest extends TestCase {
     }
 
     @Test
-    public void testInstructionManuald(){
+    public void testInstructionManuals(){
         Box boseBox = new BoseBox();
         boseBox.instructionManual();
     }

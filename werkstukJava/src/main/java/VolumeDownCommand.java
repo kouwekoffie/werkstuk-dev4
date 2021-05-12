@@ -1,5 +1,5 @@
 public class VolumeDownCommand implements Command {
-    private Box box;
+    private final Box box;
 
     public VolumeDownCommand(Box box) {
         this.box = box;

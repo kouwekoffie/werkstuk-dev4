@@ -30,7 +30,7 @@ public class SamsungBoxTest {
     }
 
     @Test
-    public void testInstructionManuald(){
+    public void testInstructionManuals(){
         Box samsungBox = new SamsungBox();
         samsungBox.instructionManual();
     }

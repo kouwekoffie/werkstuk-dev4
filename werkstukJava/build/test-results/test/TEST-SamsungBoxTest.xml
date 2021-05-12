@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SamsungBoxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-12T15:32:59" hostname="DESKTOP-34UE70T" time="0.029">
+  <properties/>
+  <testcase name="testVolumeBoxOn" classname="SamsungBoxTest" time="0.029"/>
+  <system-out><![CDATA[volume currently is : 1
+volume currently is : 2
+volume currently is : 3
+volume currently is : 4
+volume currently is : 5
+volume currently is : 6
+volume currently is : 7
+volume currently is : 8
+volume currently is : 9
+volume currently is : 10
+volume currently is : 9
+volume currently is : 8
+volume currently is : 7
+volume currently is : 6
+volume currently is : 5
+volume currently is : 4
+volume currently is : 3
+volume currently is : 2
+volume currently is : 1
+volume currently is : 0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
