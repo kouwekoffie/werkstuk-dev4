@@ -1,11 +1,3 @@
-const pipe = function (...fns) {
-    return function (x) {
-        return fns.reduce(function (v, f) {
-            return f(v);
-        }, x);
-    }
-};
-
 const boxes = [{
     name: "SamsungBox",
     stats: "BIG SOUND & DEEP BASS, UP TO 12 HOURS, ACCESS TO VOICE ASSISTANTS, SPEAKERPHONE, MAXVOLUME: 10"
@@ -22,15 +14,16 @@ const instructionManual = (powerInstructions) => {
         return function (box) {
             const boxName = box.name;
             const boxStats = box.stats;
-            let str = box
             return `${boxName} \n ${powerInstructions} \n ${boxStats} \n ${volumeInstructions} \n`;
         }
     }
 
 }
 
-// const instructionManual = pipe(box.name, powerInstructions, box.stats, volumeInstructions);
+const powerInstructionManual = instructionManual(powerInstructions)
+const powerInstructionManualWithVolumeInstructions = powerInstructionManual(volumeInstructions)
 
-const boxInstructionManual = boxes.map(instructionManual(powerInstructions, volumeInstructions))
+const boxInstructionManual = boxes.map(powerInstructionManualWithVolumeInstructions)
+
 
 console.log(boxInstructionManual);
