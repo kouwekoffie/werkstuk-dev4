@@ -12,8 +12,6 @@ public class SamsungBox extends Box{
        return ("BIG SOUND & DEEP BASS\n" +
                 "UP TO 12 HOURS\n" +
                 "ACCESS TO VOICE ASSISTANTS\n" +
-                "SPEAKERPHONE\n" +
-                "MAXVOLUME: " + maxVolume
-                + "\n");
+                "SPEAKERPHONE\n");
     }
 }

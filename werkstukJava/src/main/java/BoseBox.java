@@ -12,7 +12,6 @@ public class BoseBox extends Box{
         return ("WATERPROOF\n" +
                 "UP TO 30 HOURS\n" +
                 "STEREO\n" +
-                "COMPACT\n" +
-                "MAXVOLUME: 10\n");
+                "COMPACT\n");
     }
 }
